@@ -21,6 +21,8 @@ public class Mergesz {
     /**
      * 假设nums1的空间大小等于m+n就可以有足够的空间
      * 合并后再排序
+     * 时间复杂度O((m+n)log(n+m))
+     * 空间复杂度O（1）
      * @param nums1
      * @param m 已经排好序的元素的个数
      * @param nums2
@@ -33,6 +35,8 @@ public class Mergesz {
 
     /**
      * 利用双指针，从后往前
+     * 时间复杂度O(m+n)
+     * 空间复杂度O（1）
      * @param nums1
      * @param m
      * @param nums2
